@@ -54,3 +54,6 @@ Moreover, it creates the graphical representation of the data (pie charts, bar c
 - **FileManager started as a helper classin order we remove away Input and Outputsystem. It tends to be a GOD** classwhich holds a lot of logic and it could possibly be refactored into smaller andmore readable units
 - **External libraries like Junit and JFreeChart should not be committedinto the code base** and we shouldn’t have to worry about adding each external dependency in our application separately when a tool like **Maven can do this for us**. 
 - Java is moving fast and beautiful things are comingin **later versions(we used java 8) and in Micromanagement frameworks like Spring Boot**. Things like dependency injections and inversion ofcontrolare super trendy nowadays and we would like our application to exploit those features that are offeredwithout having to reinvent the wheel like we do in some cases inside our application (singletonand getInstance())
+
+## Note
+Initial code before refactoring at **master branch**.
